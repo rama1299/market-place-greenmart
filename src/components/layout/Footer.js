@@ -1,5 +1,5 @@
-import Logo from "../Logo";
-import SocialMedia from "../SocialMedia";
+import Logo from "../hierarchy/Logo";
+import SocialMedia from "../hierarchy/SocialMedia";
 
 export default function Footer() {
     return (

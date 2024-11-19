@@ -5,7 +5,7 @@ import { FiMapPin } from "react-icons/fi";
 import { IoMdMenu } from "react-icons/io";
 import { PiPhoneListThin } from "react-icons/pi";
 import { usePathname, useRouter } from "next/navigation";
-import Logo from "../Logo";
+import Logo from "../hierarchy/Logo";
 
 
 export default function Navbar() {
@@ -13,7 +13,7 @@ export default function Navbar() {
     const router = useRouter()
 
     return (
-        <nav className="w-full sticky top-0 z-50">
+        <nav className="w-full sticky top-0 z-50 border-b shadow-sm">
             <div className="w-full hidden md:block h-9 bg-pr-gray-50 text-pr-gray-700">
                 <div className="wrap h-full m-auto flex justify-between items-center">
                     <div className="flex justify-center items-center gap-1 cursor-pointer">
